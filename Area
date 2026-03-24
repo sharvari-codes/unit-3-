@@ -30,13 +30,13 @@ area = shapes.rectangle_area(length, width)
 print("The area of the rectangle is: {area:.2f}")
 
 elif choice =="3":
-base = float(input("Enter the base of the triangle: &quot;))
-height = float(input("Enter the height of the triangle: &quot;))
+base = float(input("Enter the base of the triangle:"))
+height = float(input("Enter the height of the triangle:"))
 area = shapes.triangle_area(base, height)
-print(f"The area of the triangle is: {area:.2f}&quot;)
+print(f"The area of the triangle is: {area:.2f}")
 
 else:
-print(&quot;Invalid choice. Please select a valid option.&quot;)
+print("Invalid choice. Please select a valid option.")
 
-if __name__ == &quot;__main__&quot;:
+if __name__ =="__main__":
 main()
